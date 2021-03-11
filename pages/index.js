@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Jinunit</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Jinunit" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          This is exciting, can you imagine what is coming up? 
         </p>
       </main>
 
