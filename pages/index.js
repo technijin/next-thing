@@ -11,13 +11,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <img src="/jinunit.svg" alt="jinunit Logo" className={styles.logo} />
         <Header title="Jinunit" />
         <p className="description">
           This is exciting, can you imagine what is coming up? 
         </p>
       </main>
-
+      <Footer />
     </div>
   )
 }
