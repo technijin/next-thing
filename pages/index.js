@@ -14,9 +14,9 @@ export default function Home() {
       <main>
     <Image
         src="/jinunit.png"
-        alt="Picture of the author"
-        width={500}
-        height={500}
+        alt="Logo"
+        width={120}
+        height={120}
       />
         <Header title="Jinunit" />
         <p className="description">
