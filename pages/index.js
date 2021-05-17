@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <img href="/jinunit.png"/>
         <Header title="Jinunit" />
         <p className="description">
           This is exciting, can you imagine what is coming up? 
