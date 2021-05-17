@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -12,12 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-    <Image
-        src="/jinunit.png"
-        alt="Logo"
-        width={120}
-        height={120}
-      />
+        <img src="/jinunit.png" alt="jinunit Logo" className={styles.logo} />
         <Header title="Jinunit" />
         <p className="description">
           This is exciting, can you imagine what is coming up? 
